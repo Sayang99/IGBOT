@@ -17,10 +17,10 @@ install:
   - pip install codecov
 
 script:
- - pyflakes instabot tests examples
- - pycodestyle --ignore=E501 instabot tests
+ - pyflakes ezigbot tests examples
+ - pycodestyle --ignore=E501 ezigbot tests
  - pycodestyle --ignore=E402,E501 examples
- - py.test --cov=instabot --cov-report=xml
+ - py.test --cov=ezigbot --cov-report=xml
  - codecov
 
 after_success:
