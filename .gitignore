@@ -8,7 +8,7 @@ secret.txt
 *.tsv
 
 # Photos
-examples/photos/
+IGBOT/photos/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
